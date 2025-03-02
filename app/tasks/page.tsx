@@ -11,9 +11,7 @@ export default function TasksPage() {
                 'Create a server component that directly uses getPolicies() to fetch policy data',
                 'Implement React Suspense for loading states',
                 'Create a table to display the policy data with proper formatting',
-                'Add pagination with 10 items per page',
-                'Handle error states appropriately with error boundaries',
-                'Bonus: Add sorting functionality to the table'
+                'Add pagination with 10 items per page'
             ],
             difficulty: 'Beginner',
             timeEstimate: '15-20 minutes'
@@ -25,11 +23,9 @@ export default function TasksPage() {
             requirements: [
                 'Create a form with fields for company name, country, risk score',
                 'Implement form validation (required fields, proper formats)',
-                'Create a Server Action in actions.ts that directly handles the insurer creation',
+                'Create a Server Action in actions.ts that handles form submission and sends data to "/api/insurers"',
                 'Show appropriate error messages for invalid input',
-                'Display a success message on successful submission',
-                'Optimize with progressive enhancement for instant feedback',
-                'Bonus: Add a confirmation step before final submission'
+                'Display a success message on successful submission'
             ],
             difficulty: 'Intermediate',
             timeEstimate: '15-20 minutes'
@@ -42,8 +38,7 @@ export default function TasksPage() {
                 'Use the API endpoint "/api/analytics" to fetch monthly premium data',
                 'Create a line chart showing monthly premiums (using any simple charting library)',
                 'Display summary metrics (total premium, loss ratio) in stat cards',
-                'Add a simple filter to show data for different risk levels',
-                'Bonus: Add a second chart showing monthly claims data'
+                'Add a simple filter to show data for different risk levels'
             ],
             difficulty: 'Intermediate-Advanced',
             timeEstimate: '20-25 minutes'

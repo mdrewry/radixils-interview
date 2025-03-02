@@ -15,9 +15,9 @@ The project is a Next.js application that simulates a reinsurance analytics plat
 
 The project contains three interview tasks of varying difficulty levels:
 
-1. **Data Fetching and Display**: Candidates fetch policy data from the API and display it in a table with pagination.
-2. **State Management and Form Creation**: Candidates create a form with validation to add new insurance companies.
-3. **Data Visualization Enhancement**: Candidates add interactive charts to the analytics dashboard.
+1. **Data Fetching with Suspense**: Candidates implement server-side data fetching with Next.js Suspense to display policy data in a table with pagination.
+2. **Form with Server Actions**: Candidates create a form with validation that uses Next.js Server Actions to handle form submission.
+3. **Data Visualization Dashboard**: Candidates create a simple analytics dashboard with charts and summary metrics.
 
 ## Getting Started
 
